@@ -62,11 +62,12 @@ This project is built with:
 
 ## How can I deploy this project?
 
-**GitHub Pages (automatic via Actions)**
+**Vercel (recommended)**
 
-1. In GitHub: **Settings → Pages → Source** → Select **GitHub Actions**
-2. Every push to `main` automatically builds and deploys
-3. Site: **https://simecek.github.io/QuackMaster/**
+1. Go to [vercel.com](https://vercel.com) → **Add New** → **Project**
+2. Import your `simecek/QuackMaster` repo (connect GitHub if needed)
+3. Click **Deploy** — Vercel auto-detects Vite
+4. Site will be at `quackmaster-*.vercel.app` (or your custom domain)
 
 **Lovable**
 

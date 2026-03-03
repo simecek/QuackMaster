@@ -62,13 +62,11 @@ This project is built with:
 
 ## How can I deploy this project?
 
-**GitHub Pages (manual deploy)**
+**GitHub Pages (automatic via Actions)**
 
-1. Build the project: `npm run build`
-2. Commit and push the `docs/` folder: `git add docs && git commit -m "Deploy" && git push`
-3. In GitHub: **Settings → Pages → Source** → Deploy from branch `main`, folder `/docs`
-
-The site will be live at: **https://simecek.github.io/QuackMaster/**
+1. In GitHub: **Settings → Pages → Source** → Select **GitHub Actions**
+2. Every push to `main` automatically builds and deploys
+3. Site: **https://simecek.github.io/QuackMaster/**
 
 **Lovable**
 

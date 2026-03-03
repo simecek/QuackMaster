@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      // GitHub Pages serves this for 404s; redirect to SPA with path
+      const segment = 2; // skip ["", "QuackMaster"] to get app route
+      const path = window.location.pathname.split("/").slice(segment).join("/") + window.location.search;
+      window.location.replace("/QuackMaster/" + path);
+    </script>
+  </head>
+  <body>Redirecting...</body>
+</html>

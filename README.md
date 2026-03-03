@@ -62,7 +62,17 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+**GitHub Pages (manual deploy)**
+
+1. Build the project: `npm run build`
+2. Commit and push the `docs/` folder: `git add docs && git commit -m "Deploy" && git push`
+3. In GitHub: **Settings → Pages → Source** → Deploy from branch `main`, folder `/docs`
+
+The site will be live at: **https://simecek.github.io/QuackMaster/**
+
+**Lovable**
+
+Alternatively, open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share → Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
